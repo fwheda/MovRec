@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+	<title>JavaJam Coffee House Jobs</title>
+    <link rel="stylesheet" href="stylesheets/javajam.css">
+</head>
+
+<body>
+    <div id="wrapper">
+    <header> <h1>JavaJam Coffee House</h1> </header>
+
+    <nav> 
+        <a href="index.html" >Home</a> &nbsp;
+        <a href="menu.html" >Menu</a>  &nbsp;
+        <a href="music.html" >Music</a>  &nbsp;
+        <a href="jobs.html" >Jobs</a>    &nbsp;
+    </nav>
+
+    <main> 
+        <h2>Jobs at JavaJam</h2> 
+
+        <p>
+            Want to work at JavaJam? Fill out the form below to start your application. Required
+            fields are marked with an asterisk (*).
+        </p>
+
+        <form method="post", action="/action_page.js">
+            <p>
+                <label for="name">*Name:</label>
+                <input id="name" type="text" placeholder="enter your username" name="username" required>
+            </p>
+            <p>
+                <label for="email">*E-mail:</label>
+                <input id="email" type="email" name="email" required>
+            </p>
+            <p>
+                <label for="experience">*Experience:</label>
+                <br>
+                <textarea id="experience" rows="10" cols="40" name="experience" placeholder="Type something here"></textarea>            </p>
+            <p>
+                <label for="email">*E-mail:</label>
+                <input type="text" name="num" min="1" max="1000">
+            </p>
+
+            <p>
+                <label for="position">Select job position:</label>
+                <select name="position" id="position">
+                    <option value="barista">Barista</option>
+                    <option value="waiter">Waiter</option>
+                    <option value="cleaner">Cleaner</option>
+                    <option value="cashier">Cashier</option>
+                </select>
+            </p>
+            
+            <p>
+                <label for="position">Select date and time:</label>
+                <input type="datetime-local" value="2023-01-01T12:00" id="interview date & time" />
+            </p>
+
+            <p>
+                <label for="position">Upload your photo:</label>
+                <input type="file" id="myFile" name="photo">
+            </p>
+
+            <button>Apply Now</button>
+        </form>
+    </main>
+</div>
+</body>
+
+<footer>
+    Copyright © 2025 JavaJam Coffee House <br>
+    <a href="mailto:yourfirstname@yourlastname.com" >yourfirstname@yourlastname.com</a>
+</footer>  
+
+</html>
